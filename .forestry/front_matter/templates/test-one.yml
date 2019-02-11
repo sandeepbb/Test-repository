@@ -1,0 +1,27 @@
+---
+label: Test One
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Add page / article here
+- type: boolean
+  name: show_featured
+  label: show featured
+  description: Select this to feature the article
+- type: datetime
+  name: date
+  label: date
+- type: color
+  name: color
+  config:
+    color_format: Hex
+  label: color
+- type: tag_list
+  name: tags
+  label: tags
+- type: file
+  name: image
+  label: image
